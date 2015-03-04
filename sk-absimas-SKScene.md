@@ -20,8 +20,10 @@ Scene calculates the cotents of a new frame by processing these actions:
 
 Creates a scene with an optional size given
 
+```Swift
     let skScene = SKScene()
     let skSizedScene = SKScene(size: CGSize(width: 100, height: 100))
+```
 
 - update
 
