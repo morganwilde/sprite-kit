@@ -65,7 +65,7 @@ This action is not reversible, and doen't have any methods with similar behavior
 
 
 
-	```Swift
+```Swift
 	func fireProjectile() {
         let projectile = self.dynamicType.projectile.copy() as SKSpriteNode
         projectile.position = position
@@ -78,7 +78,7 @@ This action is not reversible, and doen't have any methods with similar behavior
  
         projectile.runAction(SKAction.sequence(sequence))      
     }
-	```
+```
 	
 __Very general example, but all actions follow this format.__
 	    
