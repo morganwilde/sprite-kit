@@ -30,12 +30,12 @@ This node is used for adding some special effects into a scene or to cache the c
     import SpriteKit
 
     var lightingNode = SKEffectNode()
-    var lightTexture = SKTexture(imageNamed: "")
+    var lightTexture = SKTexture(imageNamed: "") //specify image
     var light = SKSpriteNode(texture: lightTexture)
     light.blendMode = .Add
     lightingNode.addChild(light)
 
-    var blurFilter = CIFilter (name: "")
+    var blurFilter = CIFilter (name: "") // specify filter
 
     lightingNode.filter = blurFilter
 
