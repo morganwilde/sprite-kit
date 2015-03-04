@@ -39,8 +39,8 @@ This node is used for adding some special effects into a scene or to cache the c
 
 * Some properties:
 
-	- var filter: CIFilter? 
+	- ```Swift var filter: CIFilter? ```
 
-	- var shouldEnableEffects: Bool 
+	- ```Swift var shouldEnableEffects: Bool ```
 	-“YES - apples filter and blends results, NO (default) - rendering normally”
 	
