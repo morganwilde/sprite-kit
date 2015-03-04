@@ -15,10 +15,10 @@ sk-githubUserName-className.md
 ```
 
 ## Tautvydas
-1. SKSpriteNode
-1. SKEffectNode
-1. SKLightNode
-1. SKFieldNode
+1. + SKSpriteNode
+1. + SKEffectNode
+1. + SKLightNode
+1. + SKFieldNode
 
 ## Arunas
 1. + SKAction
