@@ -23,8 +23,8 @@ sk-githubUserName-className.md
 ## Arunas
 1. SKAction
 1. SKPhysicsBody
-1. SKPhysicsJoint
 1. SKPhysicsWorld
+1. SK3DNode
 
 ## Henrikas
 1. SKPhysicsJoint
