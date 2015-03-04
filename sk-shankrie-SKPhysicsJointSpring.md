@@ -13,6 +13,6 @@ class func jointWithBodyA(
 
 Properties:
 ```swift
-var damping: CGFloat
-var frquency: CGFloat
+var damping: CGFloat // (lit. slopinimas) defines that defines how the spring's motion should be damped (due to forces of friction)
+var frquency: CGFloat // defines frequency characteristics of the float
 ```
