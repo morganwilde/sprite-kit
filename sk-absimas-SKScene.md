@@ -37,4 +37,7 @@ Performs any scene-specific updates that need to occur before scene actions are 
 ##Properties
 
 - backgroundColor : NSColor
+
+```Swift
     skScene.backgroundColor = UIColor.blackColor()
+```
