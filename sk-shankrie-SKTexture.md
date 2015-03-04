@@ -14,7 +14,8 @@ var filteringMode: SKTextureFilteringMode // filtering mode of a texture
     // Possible values: 
     // - .Nearest
     // - .Linear
-func size() -> CGSize // size of a texture. Calling this method causes image file to load from file```
+func size() -> CGSize // size of a texture. Calling this method causes image file to load from file
+```
 
 Declaration example:
 ```swift 

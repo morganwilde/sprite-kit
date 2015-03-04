@@ -23,24 +23,24 @@ sk-githubUserName-className.md
 ## Arunas
 1. + SKAction
 1. + SKPhysicsBody
-1. SKPhysicsWorld
-1. SK3DNode
+1. + SKPhysicsWorld
+1. + SK3DNode
 
 ## Henrikas
-1. SKPhysicsJoint
-1. SKPhysicsJointFixed
-1. SKPhysicsJointSpring
-1. SKTexture
+1. + SKPhysicsJoint
+1. + SKPhysicsJointFixed
+1. + SKPhysicsJointSpring
+1. + SKTexture
 
 ## Simas
-1. SKTransition
-1. SKScene
-1. SKConstraint
-1. SKView
+1. + SKTransition
+1. + SKScene
+1. + SKConstraint
+1. + SKView
 
 ## Morgan
 1. + SKCropNode
 1. + SKLabelNode
-1. SKMutableTexture
-1. SKReachConstraints
+1. + SKMutableTexture
+1. + SKReachConstraints
 1. + SKNode
