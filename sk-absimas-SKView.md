@@ -2,7 +2,7 @@
 
 Used to display `SpriteKit` content. The content is provided by an `SKScene` object.
 
-#Methods
+##Methods
 
 - presentScene(_scene: SKScene?, transition: SKTransition?)
 
@@ -28,7 +28,7 @@ Converts a point from coordinates to view coordinates
     let point = CGPoint(x: 5, y: 10)
     let pointInView = skView.convertPoint(point, fromScene: skScene)
 
-#Propety
+##Properties
 
 - asynchronous : Bool
     
