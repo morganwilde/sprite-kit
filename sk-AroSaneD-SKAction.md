@@ -22,9 +22,10 @@ __Main methods:__
 1. __moveByX__
 
 ```Swift
-		    class func moveByX(_ deltaX: CGFloat,
-                 y deltaY: CGFloat,
-          		 duration sec: NSTimeInterval) -> SKAction
+class func moveByX(
+	_ deltaX: CGFloat,
+	y deltaY: CGFloat,
+	duration sec: NSTimeInterval) -> SKAction
 ```
 
 This does what it says. 
