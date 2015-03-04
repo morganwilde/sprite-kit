@@ -5,13 +5,17 @@ SKTexture object manages the texture data and graphics resources needed to rende
 Loading and preparing texture data is expensive so SprietKit defers these actions and provides methods to control it.
 
 Important methods:
-* +textureWithImageName: - creates SKTexture object from an image file
-* +textureWIthImage: - creates SKTexture from an inage object
+* textureWithImageName: - creates SKTexture object from an image file
+* textureWIthImage: - creates SKTexture from an inage object
 
 Important properties:
 ```swift
-var filteringMode: SKTextureFilteringMode
-func size() -> CGSize
+var filteringMode: SKTextureFilteringMode // filtering mode of a texture
+    // Possible values: 
+    // - .Nearest
+    // - .Linear
+func size() -> CGSize // size of a texture. Calling this method causes an image file to load from file
+    
 ```
 
 Declaration example:
