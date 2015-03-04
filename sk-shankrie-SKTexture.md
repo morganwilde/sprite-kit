@@ -12,9 +12,11 @@ Important properties:
 ```swift
 var filteringMode: SKTextureFilteringMode
 func size() -> CGSize
-``
+```
 
 Declaration example:
-```swift convenience init!(imageNamed name: String)``
+```swift 
+convenience init!(imageNamed name: String)
+```
 
 
