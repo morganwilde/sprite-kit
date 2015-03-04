@@ -34,9 +34,11 @@ sec - the duration of the action (in seconds).
 
 There are many others like this (moveByX, moveByDuration, moveTo etc.)	<br />	    
 2. __followPath__<br />
-
-		    class func followPath(_ path: CGPath,
-             duration sec: NSTimeInterval) -> SKAction
+```Swift
+class func followPath(
+	_ path: CGPath,
+	duration sec: NSTimeInterval) -> SKAction
+```
 Sets the node to follow a certain (fixed) path.
 
 
@@ -45,9 +47,11 @@ sec	 - The duration of the animation.
 
 Similar methods also exists, but accept different parameters, work in different ways. <br /> <br />
 3. __speedBy__
-
-		    class func speedTo(_ speed: CGFloat,
-          duration sec: NSTimeInterval) -> SKAction
+```Swift
+class func speedTo(
+	_ speed: CGFloat,
+	duration sec: NSTimeInterval) -> SKAction
+```
 Increases the speed at which a node performs its action.
 
 speed - The new value for the node’s speed.<br />
@@ -59,7 +63,10 @@ This action is not reversible, and doen't have any methods with similar behavior
 <br />
 ## Example!
 
-		func fireProjectile() {
+
+
+	```Swift
+	func fireProjectile() {
         let projectile = self.dynamicType.projectile.copy() as SKSpriteNode
         projectile.position = position
         projectile.zRotation = zRotation
@@ -71,6 +78,7 @@ This action is not reversible, and doen't have any methods with similar behavior
  
         projectile.runAction(SKAction.sequence(sequence))      
     }
+	```
 	
 __Very general example, but all actions follow this format.__
 	    
