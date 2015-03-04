@@ -19,11 +19,14 @@ These actions can be nested, in order to obtain highly sophisticated behaviour f
 
 __Main methods:__
 
-1. __moveByX__<br />
+1. __moveByX__
 
+```Swift
 		    class func moveByX(_ deltaX: CGFloat,
                  y deltaY: CGFloat,
           		 duration sec: NSTimeInterval) -> SKAction
+```
+
 This does what it says. 
 deltaX and deltaY - the points to add to the nodes position. 
 sec - the duration of the action (in seconds).
