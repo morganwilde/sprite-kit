@@ -27,10 +27,10 @@ sk-githubUserName-className.md
 1. SK3DNode
 
 ## Henrikas
-1. SKPhysicsJoint
-1. SKPhysicsJointFixed
-1. SKPhysicsJointSpring
-1. SKTexture
+1. + SKPhysicsJoint
+1. + SKPhysicsJointFixed
+1. + SKPhysicsJointSpring
+1. + SKTexture
 
 ## Simas
 1. SKTransition
