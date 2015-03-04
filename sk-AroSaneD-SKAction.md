@@ -66,17 +66,17 @@ This action is not reversible, and doen't have any methods with similar behavior
 
 
 ```Swift
-	func fireProjectile() {
-        let projectile = self.dynamicType.projectile.copy() as SKSpriteNode
-        projectile.position = position
-        projectile.zRotation = zRotation
+func fireProjectile() {
+	let projectile = self.dynamicType.projectile.copy() as SKSpriteNode
+	projectile.position = position
+	projectile.zRotation = zRotation
         
-        let waitAction = SKAction.waitForDuration(Constants.projectileFadeOutDuration)
-        let fadeAction = SKAction.fadeOutWithDuration(Constants.projectileLifetime - Constants.projectileFadeOutDuration)
-        let removeAction = SKAction.removeFromParent()
-        let sequence = [waitAction, fadeAction, removeAction]
+	let waitAction = SKAction.waitForDuration(Constants.projectileFadeOutDuration)
+	let fadeAction = SKAction.fadeOutWithDuration(Constants.projectileLifetime - Constants.projectileFadeOutDuration)
+	let removeAction = SKAction.removeFromParent()
+	let sequence = [waitAction, fadeAction, removeAction]
  
-        projectile.runAction(SKAction.sequence(sequence))      
+	projectile.runAction(SKAction.sequence(sequence))      
     }
 ```
 	
