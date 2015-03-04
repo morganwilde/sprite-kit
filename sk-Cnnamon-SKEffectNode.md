@@ -60,7 +60,7 @@ This node is used for adding some special effects into a scene or to cache the c
     ```Swift
     var filter: CIFilter? 
     ``` 
-    -YES - apples filter and blends results, NO (default) - rendering normally
+    - YES - apples filter and blends results, NO (default) - rendering normally
 	```Swift 
     var shouldEnableEffects: Bool 
 ```
