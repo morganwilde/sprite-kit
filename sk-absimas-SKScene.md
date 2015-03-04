@@ -24,7 +24,9 @@ Creates a scene with an optional size given
     let skSizedScene = SKScene(size: CGSize(width: 100, height: 100))
 
 - update
+
 Performs any scene-specific updates that need to occur before scene actions are evaluated.
+
 - didEvaluateActions
 - didSimulatePhysics
 - didApplyConstraints
@@ -33,4 +35,4 @@ Performs any scene-specific updates that need to occur before scene actions are 
 ##Properties
 
 - backgroundColor : NSColor
-    skScene.backgroundColor = NSColor(hexString: "#000000")
+    skScene.backgroundColor = UIColor.blackColor()
