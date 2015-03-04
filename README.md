@@ -7,3 +7,9 @@
 ```Swift
 var test = 1
 ```
+
+# File format for each class
+
+```
+sk-githubUserName-className.md
+```
