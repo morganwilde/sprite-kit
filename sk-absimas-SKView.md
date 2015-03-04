@@ -2,12 +2,13 @@
 
 Used to display `SpriteKit` content. The content is provided by an `SKScene` object.
 
-#Methods
+##Methods
 
 - presentScene(_scene: SKScene?, transition: SKTransition?)
 
 Adds a scene to the view while also removing the old ones. Can provide a transition object.
 
+```Swift
     let skView = SKView()
     let skScene = SKScene()
     let transition = SKTransition()
@@ -17,18 +18,21 @@ Adds a scene to the view while also removing the old ones. Can provide a transit
 
     // With a transition
     skView.presentScene(skScene, transition: transition)
+```
 
 - convertPoint
 
 Converts a point from coordinates to view coordinates
 
+```Swift
     let skView = SKView()
     let skScene = SKScene()
 
     let point = CGPoint(x: 5, y: 10)
     let pointInView = skView.convertPoint(point, fromScene: skScene)
+```
 
-#Propety
+##Properties
 
 - asynchronous : Bool
     
