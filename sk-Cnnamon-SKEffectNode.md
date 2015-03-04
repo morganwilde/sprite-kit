@@ -25,7 +25,24 @@ This node is used for adding some special effects into a scene or to cache the c
 	- What it does: effect node accumulates the effects of these lights
 
 	- Result: image has a blur filter on it
-	(code example in obj-C)
+	
+    ```Swift
+    import SpriteKit
+
+    var lightingNode = SKEffectNode()
+    var lightTexture = SKTexture(imageNamed: "")
+    var light = SKSpriteNode(texture: lightTexture)
+    light.blendMode = .Add
+    lightingNode.addChild(light)
+
+    var blurFilter = CIFilter (name: "")
+
+    lightingNode.filter = blurFilter
+
+    lightingNode.blendMode = .Multiply
+    ```
+
+
 	
 * Scenes are effect nodes:
 
@@ -39,8 +56,13 @@ This node is used for adding some special effects into a scene or to cache the c
 
 * Some properties:
 
-	- ```Swift var filter: CIFilter? ```
-
-	- ```Swift var shouldEnableEffects: Bool ```
-	-“YES - apples filter and blends results, NO (default) - rendering normally”
+    - CoreImage filter
+    ```Swift
+    var filter: CIFilter? 
+    ``` 
+    -YES - apples filter and blends results, NO (default) - rendering normally
+	```Swift 
+    var shouldEnableEffects: Bool 
+```
+	
 	
