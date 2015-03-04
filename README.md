@@ -40,6 +40,7 @@ sk-githubUserName-className.md
 
 ## Morgan
 1. + SKCropNode
-1. SKLabelNode
+1. + SKLabelNode
 1. SKMutableTexture
 1. SKReachConstraints
+1. SKNode
