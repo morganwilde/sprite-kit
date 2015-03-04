@@ -33,10 +33,10 @@ sk-githubUserName-className.md
 1. SKTexture
 
 ## Simas
-1. SKTransition
-1. SKScene
-1. SKConstraint
-1. SKView
+1. + SKTransition
+1. + SKScene
+1. + SKConstraint
+1. + SKView
 
 ## Morgan
 1. + SKCropNode
